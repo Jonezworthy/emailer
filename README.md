@@ -1,4 +1,6 @@
 # PowerShell emailer
+To use this, change all of the variables/strings that have a #change comment
+
 This script requires arguments!
 
 Run with this command:
