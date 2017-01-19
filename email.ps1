@@ -15,9 +15,9 @@ if ($to.length -gt 0 -And $subject.length -gt 0 -And $body.length -gt 0){
 
 	
 
-	$smtp = new-object Net.Mail.SmtpClient("exch01")#change
+	$smtp = New-Object Net.Mail.SmtpClient("exch01")#change
 
-	$credentials = new-object Net.NetworkCredential("andrewj", $password)#change
+	$credentials = New-Object Net.NetworkCredential("andrewj", $password)#change
 	$smtp.Credentials = $credentials
 	$smtp.EnableSsl = "true"
 
